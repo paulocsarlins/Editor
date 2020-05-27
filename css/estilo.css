@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(8, 8, 8, 0.856);
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+}
+
+.editor{
+    color: white;
+    text-align: center;
+    font-size: 40pt;
+}
+
+.note-toolbar.card-header{
+    text-align: center;
+}
+
+div.note-editable.card-block{
+    height: 300px;
+}
+
+div.input-btn{
+    text-align: center;
+}
+
+input.btn{
+    border-radius: 400px;
+    height: 195px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 260px;
+    margin: 1.5em;
+}
+
+#btn-limpar{
+    background-color: greenyellow;
+}
+
+#btn-abrir{
+    background-color: white;
+}
+
+#btn-salvar{
+    background-color: orange;
+}
+
+#btn-falar{
+    background-color: orange;
+}
