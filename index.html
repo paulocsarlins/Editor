@@ -23,10 +23,12 @@
       </div>
 
       <div class="input-btn col-md-14">
-
+        <div id="seletor-voz">
+        Seletor de voz: <select id='voiceList'></select>
+      </div>
         <input class="btn" type="image" src="imagem/limpar-editor.jpg" alt="" id="btn-limpar"> <!--Apaga o texto digitado-->
         <input class="btn" type="image" src="imagem/abrir-arquivo.png" alt="" id="btn-abrir"> <!--Abri um arquivo do computador no editor de texto-->
-        <input class="btn" type="image" src="imagem/salvar-arquivo.png" alt="" id="btn-salvar"> <!--Salva o texto digitado no editor-->
+        <input class="btn" type="image" src="imagem/salvar-arquivo.png" alt="" id="btn-salvar" onclick="salvar()">
         <input class="btn" type="image" src="imagem/ler-texto.png" alt="" id="btn-falar"> <!--Fala o texto digitado no editor-->
       
       </div>
@@ -39,6 +41,8 @@
     <script src="js/summernote-bs4.js"></script>
     <script src="js/summernote-pt-BR.js"></script>
     <script src="js/funcionalidade.js"></script>
+    <script src="js/FileSaver.js"></script>
+    <script src="js/speak.js"></script>
 
   
   </body>
