@@ -21,14 +21,18 @@ div.note-editable.card-block{
     height: 300px;
 }
 
+#seletor-voz{
+    color: white;
+}
+
 div.input-btn{
     text-align: center;
 }
 
 input.btn{
     border-radius: 400px;
-    height: 195px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     display: inline-block;
     margin-left: 260px;
     margin: 1.5em;
