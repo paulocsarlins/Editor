@@ -1,3 +1,9 @@
+$("p").each(function(){
+    if (!$(this).text().trim().length) {
+        $(this).remove();
+    }
+});
+
 var txtInput = document.querySelector('#summernote');
 var btnSpeak = document.querySelector('#btn-falar');
 var synth = window.speechSynthesis;
