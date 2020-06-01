@@ -1,5 +1,4 @@
-var txteditor = document.querySelector('#summernote');
-var txtInput = txteditor.replace(/<[^>]+>/g, '');
+var txtInput = document.querySelector('#summernote');
 var btnSpeak = document.querySelector('#btn-falar');
 var synth = window.speechSynthesis;
 var voices = [];
