@@ -35,7 +35,7 @@ $('#btn-salvar').click(function(){
     var texto = editor.replace(/<[^>]+>/g, '');
     var blob = new Blob([texto],
     {
-        type: "ms-word/plain;charset=utf-8"
+        type: "txt/plain;charset=utf-8"
     });
     saveAs(blob, ".txt");
 }
