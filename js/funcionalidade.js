@@ -11,13 +11,7 @@ $('#summernote').summernote({
         ['heigth', ['heigth', 'codeview', 'fullscreen', 'undo', 'redo']]
     ]
 });
-/*
-$("p").each(function(){
-    if (!$(this).text().trim().length) {
-        $(this).remove();
-    }
-});
-*/
+
 $('#btn-limpar').click(function(){
     if($('#summernote').summernote('isEmpty')){
         alert('[ATENÇÃO!] O editor está vazio!');
