@@ -15,24 +15,23 @@
   </head>
   <body>
     <h1>MATRACA WEB</h1>
+    <div class="matraca">
 
-      <div class="editor">Editor de Texto</div>
-
-      <div class="container mt-5 mb-5">
+          <div class="container mt-5 mb-5">
           <textarea id="summernote" class="texto"></textarea>
       </div>
 
       <div class="input-btn col-md-14">
         <div id="seletor-voz">
         Seletor de voz: <select id='voiceList'></select>
-      </div>
+      </div class>
         <input class="btn" type="image" src="imagem/limpar-editor.jpg" alt="" id="btn-limpar"> <!--Apaga o texto digitado-->
-        <input class="btn" type="image" src="imagem/abrir-arquivo.png" alt="" id="btn-abrir"> <!--Abri um arquivo do computador no editor de texto-->
-        <input class="btn" type="image" src="imagem/salvar-arquivo.png" alt="" id="btn-salvar" onclick="salvar()">
+        <input class="btn" type="file" src="imagem/abrir-arquivo.png" alt="" id="btn-abrir"> <!--Abri um arquivo do computador no editor de texto-->
+        <input class="btn" type="image" src="imagem/salvar-arquivo.png" alt="" id="btn-salvar">
         <input class="btn" type="image" src="imagem/ler-texto.png" alt="" id="btn-falar"> <!--Fala o texto digitado no editor-->
       
       </div>
-
+    </div>
       <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
