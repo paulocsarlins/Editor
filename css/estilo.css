@@ -2,6 +2,10 @@ body{
     background-color: rgba(8, 8, 8, 0.856);
 }
 
+div.matraca{
+    margin-top: 180px;
+}
+
 h1{
     text-align: center;
     color: yellow;
@@ -15,6 +19,11 @@ h1{
 
 .note-toolbar.card-header{
     text-align: center;
+}
+
+.note-editor.note-frame.card{
+    margin-left: 145px;
+    width: 800px;;
 }
 
 div.note-editable.card-block{
