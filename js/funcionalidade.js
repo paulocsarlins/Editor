@@ -1,4 +1,5 @@
 $('#summernote').summernote({
+    
     placeholder: 'Digite seu texto aqui...',
     lang: 'pt-BR', // default: 'en-US' 
     toolbar: [
@@ -29,13 +30,13 @@ $('#btn-salvar').click(function(){
     var texto = editor.replace(/<[^>]+>/g, '');
     var blob = new Blob([texto],
     {
-        type: "text/plain;charset=utf-8"
+        type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document;charset=utf-8"
     });
-    saveAs(blob, ".txt");
+    saveAs(blob, "note.doc");
 }
 });
 
-
+ 
 
 
 
