@@ -10,31 +10,19 @@ h1{
 
 /*INÍCIO Estilo: editor de texto*/
 div.matraca{
-    
     margin-top: 100px;
-    /*float: left;*/
-    /*margin-left: 400px;*/
 }
 
 #summernote{
     width: 100%;
-    min-width: 900px;
 }
-
-/*
-.editor{
-    color: white;
-    text-align: center;
-    font-size: 40pt;
-}
-*/
 
 .note-toolbar.card-header{
     text-align: center;
 }
 
 .note-editor.note-frame.card{
-    margin-left: 145px;
+    /*margin-left: 145px;*/
     /*width: 100%;*/
     max-width: 800px;
 }
@@ -44,7 +32,7 @@ div.note-editable.card-block{
 }
 /*FIM Estilo: editor de texto*/
 
-#seletor-voz, #summernote{
+#seletor-voz, #summernote, .container, .mt-5, .mb-5{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,13 +41,6 @@ div.note-editable.card-block{
 #seletor-voz{
     color: white;
 }
-
-/*
-div.input-btn .col-md-14{
-    margin-left: 250px;
-
-}
-*/
 
 /*INÍCIO Estilo dos botões: limpar, upload, download e falar*/
 div.botoes{
