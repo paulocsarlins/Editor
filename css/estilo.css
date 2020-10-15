@@ -3,7 +3,7 @@ body{
 }
 
 div.matraca{
-    margin-top: 100px;
+    margin-top: 181px;
 }
 
 h1{
@@ -49,3 +49,20 @@ input.btn{
     background-color: white;
 }
 
+}
+
+#btn-limpar{
+    background-color: greenyellow;
+}
+
+#btn-abrir{
+    background-color: white;
+}
+
+#btn-salvar{
+    background-color: orange;
+}
+
+#btn-falar{
+    background-color: orange;
+}
