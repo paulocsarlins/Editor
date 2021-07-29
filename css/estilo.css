@@ -62,4 +62,9 @@ input.btn{
     background-color: white;
     border-radius: 50%;
 }
+
+/*Imagem do tradutor de libras*/
+img.access-button{
+    width: 90%!important;
+}
 /*FIM Estilo dos botões: limpar, upload, download e falar*/
