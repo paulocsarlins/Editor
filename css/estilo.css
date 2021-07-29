@@ -64,7 +64,7 @@ input.btn{
 }
 
 /*Imagem do tradutor de libras*/
-img.access-button{
+[vw] [vw-access-button] .access-button{
     width: 90%!important;
 }
 /*FIM Estilo dos botões: limpar, upload, download e falar*/
