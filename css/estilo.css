@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(8, 8, 8, 0.856);
+    background-color: rgba(82, 82, 82, 0.856);
 }
 
 /*Botões de aumentar e diminuir fonte*/
@@ -11,7 +11,7 @@ body{
 
 h1{
     text-align: center;
-    color: yellow;
+    color: #FDFF0F;
     margin-top: 70px;
 }
 
